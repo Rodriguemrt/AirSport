@@ -1,0 +1,319 @@
+/* Page de Connexion */
+
+#container
+{
+    width:400px;
+    margin:0 auto;
+    margin-top:5%;
+}
+
+#container h1
+{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+/* Bordure du formulaire*/
+form.connexion 
+{
+    width:100%;
+    padding: 30px;
+    border: 1px solid white;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+form.inscription
+{
+    width:100%;
+    padding: 30px;
+    border: 1px solid white;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+/* Input */
+input[type=text].connexion, input[type=password].connexion, input[type=email].connexion, input[type=number].connexion
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+/* Boutton submit */
+input[type=submit].connexion
+{
+    background-color: aqua;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit].connexion:hover
+{
+    background-color: white;
+    color: aqua;
+    border: 1px solid aqua;
+}
+
+/* Page d'accueil */
+body
+{
+    margin: 0;
+    background-color:lightgray;
+    border: lightgray solid 1px;
+}
+
+header
+{
+    border: black 1px solid;
+    background-color: white;
+
+}
+
+header h1
+{
+    text-align: center;
+}
+
+header p
+{
+    text-align: right;
+}
+img.panier
+{
+    position: absolute;
+    right: 5px;
+    top: 50px;
+}
+
+
+
+div#contenu 
+{	
+    flex: 1 1 200px;
+	height:100%;
+    min-height: 75vh;    
+}
+
+div.produit
+{
+    display: inline-block;
+    border: 1px solid black;
+    width: 35vh;
+    height: 30vh;
+    margin: 20px;
+    background-color: white;
+}
+
+div.poubelle
+{
+    display: inline-block;
+}
+
+aside
+{
+    min-height: 90vh;
+    background-color: aqua;
+    width: 150px;
+}
+
+div.contenu
+{
+    display: flex;
+}
+
+
+
+.formulaire
+{
+    display: inline-block;
+    border: 1px solid black;
+    width: 150vh;
+    height: 60vh;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    background-color: white;
+}
+
+form input.formulaire
+{
+    width: 20vh;
+    height: 10px;
+}
+
+a.lienProduit
+{
+    text-decoration: none;
+    color: black;
+    
+}
+
+tr.espace
+{
+    height: 10px;
+}
+
+input.poubelle
+{
+   width: 70px;
+   background-color: aqua;
+   position: relative;
+   left: 35%;
+   border: 1px solid black;
+}
+
+div.ajouterproduit
+{
+    height: 5vh;
+}
+button.ajouterproduit
+{
+    position:relative;
+    left: 40%;
+    border: 1px solid;
+    background-color: aqua;
+    width: 10%;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.image
+{
+    
+    margin-left: 35px;
+}
+
+.commande
+{
+    position: absolute;
+    right: 4%;
+}
+
+table.panier
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 45%;
+    position: relative;
+    top: 100px;
+    left: 20%;
+}
+
+table.panier td
+{
+    border: 1px solid black;
+    text-align: center;
+}
+
+p.montant
+{
+    position: relative;
+    left: 40%;
+    top: 100px;
+    width: 40%;
+
+}
+
+input.modifier
+{
+    background-color: rgb(0, 163, 163);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+button.accueil
+{
+    background-color: rgb(0, 163, 163);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+
+}
+
+#modif
+{
+    position: relative;
+    left: 20px;
+    top: 250px;   
+}
+
+#ajout
+{
+    position: relative;
+    left: 20px;
+    top: 245px;
+}
+
+input.ajout
+{
+    background-color: rgb(0, 163, 163);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.infoproduit
+{
+    display: inline-block;
+    border: 1px solid black;
+    width: 45%;
+    height: 100%;
+    margin: 25px;
+}
+
+div.image
+{
+    position: relative;
+    left: 55%;
+    top: -330px;
+    width: 25%;
+}
+
+.indexacceuil
+{
+    position:relative;
+    right: 5%;
+    top: 25%;
+    background-color: rgb(0, 163, 163);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.imageproduit
+{
+    width: 250px;
+    height: 200px;
+    margin-bottom: 25px;
+}
+
+.validercommande
+{
+    background-color: rgb(0, 163, 163);
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin: 4px 20px;
+    padding: 12px 25px;
+    text-decoration: none;
+    position: relative;
+    left: 30%;
+}
